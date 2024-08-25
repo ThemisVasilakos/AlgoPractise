@@ -69,7 +69,7 @@ public class RomanToInteger {
     /**
      * @param s the Roman numeral string to be converted
      * @return the integer value corresponding to the given Roman numeral
-     * First submitted Solution with O(N) time complexity
+     * @Implementation First submitted Solution with O(N) time complexity
      */
     public static int romanToInt(String s) {
 
@@ -139,7 +139,7 @@ public class RomanToInteger {
     /**
      * @param s the Roman numeral string to be converted
      * @return the integer value corresponding to the given Roman numeral
-     * Optimal Solution with O(N) time complexity
+     * @Implementation Optimal Solution with O(N) time complexity
      */
     public static int romanToIntOptimal(String s) {
 

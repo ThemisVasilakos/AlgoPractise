@@ -23,7 +23,7 @@ public class PalindromeNumber {
     /**
      * @param x the integer to check for being a palindrome
      * @return {@code true} if the given integer is a palindrome, otherwise {@code false}
-     * Solution with O(N) time complexity by converting to the integer to String
+     * @Implementation Solution with O(N) time complexity by converting to the integer to String
      */
     public static boolean isPalindrome(int x) {
 
@@ -39,7 +39,7 @@ public class PalindromeNumber {
     /**
      * @param x the integer to check for being a palindrome
      * @return {@code true} if the given integer is a palindrome, otherwise {@code false}
-     * Solution with O(N) time complexity without conversion to String
+     * @Implementation Solution with O(N) time complexity without conversion to String
      */
     public static boolean isPalindromeNoStr(int x) {
 

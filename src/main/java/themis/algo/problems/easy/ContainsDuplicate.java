@@ -28,7 +28,7 @@ public class ContainsDuplicate {
     /**
      * @param nums the integer array to check for duplicate values
      * @return {@code true} if any value appears at least twice in the array, otherwise {@code false}
-     * <p>Submitted Solution with O(N) time complexity</p>
+     * @Implementation Submitted Solution with O(N) time complexity
      */
     public static boolean containsDuplicate(int[] nums) {
 

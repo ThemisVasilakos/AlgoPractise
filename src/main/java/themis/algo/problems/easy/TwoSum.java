@@ -48,7 +48,7 @@ public class TwoSum {
      * @param nums array of integers
      * @param target integer target
      * @return indices of the two numbers such that they add up to target.
-     * Solution with O(N^2) time complexity
+     * @Implementation Solution with O(N^2) time complexity
      */
     public static int[] twoSum(int[] nums, int target) {
 
@@ -67,7 +67,7 @@ public class TwoSum {
      * @param nums array of integers
      * @param target integer target
      * @return indices of the two numbers such that they add up to target.
-     * Solution with O(N) time complexity
+     * @Implementation Solution with O(N) time complexity
      */
     public static int[] twoSumFaster(int[] nums, int target) {
         Map<Integer,Integer> myHash = new HashMap<>();
@@ -82,5 +82,6 @@ public class TwoSum {
 
         return  new int[]{};
     }
+
 
 }
